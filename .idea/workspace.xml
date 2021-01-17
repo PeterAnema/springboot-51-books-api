@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8f409a53-8a35-45bd-9340-2132450c5aad" name="Default Changelist" comment="Fixed using PasswordEncoder when creating or updating an user" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1iUlVDULAYb4dXu7MLpR6YsqNcU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ignore.preview.features.used" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/nl/gettoworktogether" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.29655173" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="nl.gettoworktogether.books_api.service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="nl.gettoworktogether.books_api.controller" />
+      <recent name="nl.gettoworktogether.books_api.utils" />
+      <recent name="nl.gettoworktogether.books_api.repository" />
+      <recent name="nl.gettoworktogether.books_controller.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/nl/gettoworktogether/books_api/controller" />
+      <recent name="$PROJECT_DIR$/src/main/java/nl/gettoworktogether/books_api/model" />
+      <recent name="$PROJECT_DIR$/src/main/java/nl/gettoworktogether/books_api/exceptions" />
+      <recent name="$PROJECT_DIR$/src/main/java/nl/gettoworktogether/books_api/service" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="BooksApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nl.gettoworktogether.books_api.BooksApiApplication" />
+      <module name="books_api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nl.gettoworktogether.books_api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f409a53-8a35-45bd-9340-2132450c5aad" name="Default Changelist" comment="" />
+      <created>1601970073990</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601970073990</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Small fix in project structure">
+      <created>1602165625111</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602165625111</updated>
+    </task>
+    <task id="LOCAL-00002" summary="readme.txt =&gt; readme.md">
+      <created>1602165737292</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602165737292</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fixed using PasswordEncoder when creating or updating an user">
+      <created>1602252586582</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602252586583</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.sql" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="Small fix in project structure" />
+    <MESSAGE value="readme.txt =&gt; readme.md" />
+    <MESSAGE value="Fixed using PasswordEncoder when creating or updating an user" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed using PasswordEncoder when creating or updating an user" />
+  </component>
+</project>
