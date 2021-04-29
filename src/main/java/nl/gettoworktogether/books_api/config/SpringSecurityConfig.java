@@ -51,6 +51,8 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers(HttpMethod.GET,"/authenticated/**").authenticated()
                 .anyRequest().permitAll()
                 .and()
+            .cors()
+                .and()
             .csrf().disable()
             .formLogin().disable();
     }

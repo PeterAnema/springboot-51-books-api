@@ -3,7 +3,7 @@ package nl.gettoworktogether.books_api.model;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "users")
+@Table(name = "books")
 public class Book {
 
     @Id

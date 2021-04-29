@@ -4,9 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f409a53-8a35-45bd-9340-2132450c5aad" name="Default Changelist" comment="Fixed using PasswordEncoder when creating or updating an user">
+    <list default="true" id="8f409a53-8a35-45bd-9340-2132450c5aad" name="Default Changelist" comment="Update">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_2_16.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books_api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/books_api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/gettoworktogether/books_api/config/SpringSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/gettoworktogether/books_api/config/SpringSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/gettoworktogether/books_api/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/gettoworktogether/books_api/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/gettoworktogether/books_api/controller/AuthenticatedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/gettoworktogether/books_api/controller/AuthenticatedController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/gettoworktogether/books_api/controller/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/gettoworktogether/books_api/controller/BaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/gettoworktogether/books_api/controller/BooksController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/gettoworktogether/books_api/controller/BooksController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/gettoworktogether/books_api/controller/ExceptionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/gettoworktogether/books_api/controller/ExceptionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/gettoworktogether/books_api/controller/InfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/gettoworktogether/books_api/controller/InfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/gettoworktogether/books_api/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/gettoworktogether/books_api/controller/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nl/gettoworktogether/books_api/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/gettoworktogether/books_api/model/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +48,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="ignore.preview.features.used" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/nl/gettoworktogether" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -41,6 +58,7 @@
     <property name="project.structure.side.proportion" value="0.29655173" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -77,6 +95,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BooksApiApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -108,11 +131,37 @@
       <option name="project" value="LOCAL" />
       <updated>1602252586583</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update">
+      <created>1611228656771</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611228656771</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update">
+      <created>1611228674097</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1611228674097</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.sql" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -121,6 +170,7 @@
     <MESSAGE value="Small fix in project structure" />
     <MESSAGE value="readme.txt =&gt; readme.md" />
     <MESSAGE value="Fixed using PasswordEncoder when creating or updating an user" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed using PasswordEncoder when creating or updating an user" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
 </project>

@@ -1,7 +1,7 @@
 insert into users (username, password, enabled)
 values
-('user', '$2a$10$wPHxwfsfTnOJAdgYcerBt.utdAvC24B/DWfuXfzKBSDHO0etB1ica', 1),    -- password: password
-('admin', '$2a$10$wPHxwfsfTnOJAdgYcerBt.utdAvC24B/DWfuXfzKBSDHO0etB1ica', 1);    -- password: password
+('user', '$2a$10$wPHxwfsfTnOJAdgYcerBt.utdAvC24B/DWfuXfzKBSDHO0etB1ica', TRUE),    -- password: password
+('admin', '$2a$10$wPHxwfsfTnOJAdgYcerBt.utdAvC24B/DWfuXfzKBSDHO0etB1ica', TRUE);    -- password: password
 
 insert into authorities (username, authority)
 values
@@ -9,7 +9,7 @@ values
 ('admin', 'ROLE_USER'),
 ('admin', 'ROLE_ADMIN');
 
-insert into `book` (title, writer, isbn)
+insert into books (title, writer, isbn)
 values
 ('Harry Potter en de Steen der Wijzen','J.K. Rowling', '9076174083'),
 ('Harry Potter en de Geheime Kamer','J.K. Rowling', '9076174121'),

@@ -12,7 +12,8 @@ import java.net.URI;
 import java.util.Map;
 
 @RestController
-@RequestMapping(value = "/v1/books")
+@CrossOrigin
+@RequestMapping(value = "/books")
 public class BooksController {
 
     @Autowired
