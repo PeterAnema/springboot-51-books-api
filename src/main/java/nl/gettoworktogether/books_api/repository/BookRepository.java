@@ -8,8 +8,8 @@ import java.util.Collection;
 
 public interface BookRepository extends JpaRepository<Book, Long> {
 
-    public Collection<Book> findAllByTitle(String title);
-    public Collection<Book> findAllByWriter(String name);
-    public Collection<Book> findAllByTitleAndWriter(String title, String writer);
+    Collection<Book> findAllByTitle(String title);
+    Collection<Book> findAllByWriter(String name);
+    Collection<Book> findAllByTitleAndWriter(String title, String writer);
 
 }

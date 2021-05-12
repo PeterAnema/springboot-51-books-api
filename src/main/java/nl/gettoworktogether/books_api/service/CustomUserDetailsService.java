@@ -30,7 +30,7 @@ public class CustomUserDetailsService implements UserDetailsService {
     @Override
     public UserDetails loadUserByUsername(String username) {
         Optional<User> user = userService.getUser(username);
-        if (user.isPresent()) {
+        if (!user.isPresent()) {
             throw new UsernameNotFoundException(username);
         }
 
